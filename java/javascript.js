@@ -76,7 +76,7 @@ function easterEggen() {
       
       arrOfKeys.forEach(element => {
         if(arrOfKeys[0] === 'e' && arrOfKeys[1] === 'r' && arrOfKeys[2] === 'i' && arrOfKeys[3] === 'k'){
-          alert('Yeah, he fucks...')
+          alert('Den var kanske inte för klurig...')
         }
 
       });
