@@ -6,6 +6,19 @@
     box-sizing: border-box;
 }
 
+#workData{
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 5px solid;
+}
+#schoolData{
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 5px solid;
+}
+
 body{
     font-family: "Montserrat", sans-serif;
 }

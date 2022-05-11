@@ -7,6 +7,8 @@
     <link href="/css/stylesheet.css" rel="stylesheet"></link>
     <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="/java/javascript.js" rel="java"></link>
+    <link href="/java/getJson.js" rel="java"></link>
     <title>About</title>
     <style>
         .material-symbols-outlined {
@@ -50,16 +52,57 @@
                 <br></br>
                 <p class="blocktext">Jag är 28 år och bor i Stråvalla, i norra Varberg. Just nu studerar jag på heltid som blivande systemutvecklare på campus i Varberg. Jag är en utåtriktad person som gillar rock och humor</p>
                 <br></br>
-                <span class="material-symbols-outlined">
+                <!-- <span class="material-symbols-outlined">
                     work
                     </span> Psykiatri-inriktad undersköterska, Kungsbacka kommun, heltidstjänst <br></br> Maj 2017 - tillsvidare
 
                     <br></br>
                     <span class="material-symbols-outlined">
                         school
-                        </span> Systemutvecklare, Campus Varbergs Yrkeshöskola, 2år <br></br> Oktober 2021 - tillsvidare
+                        </span> Systemutvecklare, Campus Varbergs Yrkeshöskola, 2år <br></br> Oktober 2021 - tillsvidare -->
             </div>
+            <div id="workData">
+                <span class="material-symbols-outlined">
+                    work
+                    </span>
+                <h2>Arbetslivserfarenhet<br></br></h2>
+            </div>
+    <script>
+        
+        fetch('/jsonfiles/work.json')
+            .then(function(response){
+                 return response.json();
+        })
+        .then(function(wData) {
+             appendData(wData);
+        })
+        .catch(function (err) {
+         // If an error occured, you will catch it here
+        });
 
+    </script>
 
+    <div id="schoolData">
+        <span class="material-symbols-outlined">
+            school
+            </span>
+        <h2>Utbildning<br></br></h2>
+    </div>
+<script>
+
+fetch('/jsonfiles/school.json')
+    .then(function(response){
+         return response.json();
+})
+.then(function(sData) {
+     myWorkXp(sData);
+})
+.catch(function (err) {
+ // If an error occured, you will catch it here
+});
+
+</script>
+    <script src="/java/javascript.js"></script>
+    <script src="/java/getJson.js"></script>
 </body>
 </html>

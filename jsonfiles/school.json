@@ -1,0 +1,26 @@
+[
+  {
+    "skola": "Campus Varberg",
+    "program": "Systemutveckling 2år",
+    "start": "2021",
+    "slut": "2023"
+  },
+  {
+    "skola": "Kompetenscentrum",
+    "program": "Undersköterska",
+    "start": "2017",
+    "slut": "2018"
+  },
+  {
+    "skola": "Halmstad högskola",
+    "program": "Digital design",
+    "start": "2013",
+    "slut": "2014"
+  },
+  {
+    "skola": "Elof Lindälvs gymnasium",
+    "program": "Teknik data",
+    "start": "2009",
+    "slut": "2012"
+  }
+]

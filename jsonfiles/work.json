@@ -1,0 +1,27 @@
+[  
+  {
+    "Roll": "Undersköterska",
+    "Fokus": "Psykiatri",
+    "Arbetsgivare": "Kungsbacka kommun",
+    "Start": "2018",
+    "Slut": "Tillsvidare",
+    "Praktik": "Rågården, rättpsykiatrisk klinik"
+  },
+  
+  {
+    "Roll": "Vikarie",
+    "Fokus": "LSS",
+    "Arbetsgivare": "Kungsbacka kommun",
+    "Start": "2017",
+    "Slut": "2018",
+    "Praktik": null
+  },
+  {
+    "Roll": "Vikarie",
+    "Fokus": "Vård och Omsorg",
+    "Arbetsgivare": "Kungsbacka kommun",
+    "Start": "2015",
+    "Slut": "2017",
+    "Praktik": null
+  }
+]

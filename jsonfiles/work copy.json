@@ -1,0 +1,41 @@
+[
+  {
+    "Roll": "Undersköterska",
+    "Fokus": "Psykiatri",
+    "Arbetsgivare": "Kungsbacka kommun",
+    "Start": "2018",
+    "Slut": "Tillsvidare",
+    "Praktik": "Rågården, rättpsykiatrisk klinik"
+  },
+  
+  {
+    "Roll": "Vikarie",
+    "Fokus": "LSS",
+    "Arbetsgivare": "Kungsbacka kommun",
+    "Start": "2017",
+    "Slut": "2018"
+  },
+  {
+    "Roll": "Vikarie",
+    "Fokus": "Vård och Omsorg",
+    "Arbetsgivare": "Kungsbacka kommun",
+    "Start": "2015",
+    "Slut": "2017"
+  },
+  {
+    "Roll": "Flyttgubbe",
+    "Arbetsgivare": "Västra bemanning",
+    "Övrigt": "Extrajobb"
+  },
+  {
+    "Roll": "Diskare",
+    "Arbetsgivare": "Harrys",
+    "Övrigt": "Extrajobb"
+  },
+  {
+    "Roll": "Kolonial",
+    "Arbetsgivare": "Ica Maxi",
+    "Övrigt": "Extrajobb"
+  }
+  
+]
